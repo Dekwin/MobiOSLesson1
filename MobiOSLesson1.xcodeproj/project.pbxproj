@@ -14,6 +14,18 @@
 		786249192048030600770661 /* MobiOSLesson1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786249182048030600770661 /* MobiOSLesson1Tests.swift */; };
 		786249242048030600770661 /* MobiOSLesson1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786249232048030600770661 /* MobiOSLesson1UITests.swift */; };
 		786249332048034600770661 /* ContactListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786249322048034600770661 /* ContactListViewController.swift */; };
+		7862493420480F0500770661 /* Differentiator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7862493920480F0500770661 /* Differentiator.framework */; };
+		7862493520480F0500770661 /* Pods_MobiOSLesson1Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7862493A20480F0500770661 /* Pods_MobiOSLesson1Tests.framework */; };
+		7862493620480F0500770661 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7862493B20480F0500770661 /* RxCocoa.framework */; };
+		7862493720480F0500770661 /* RxDataSources.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7862493C20480F0500770661 /* RxDataSources.framework */; };
+		7862493820480F0500770661 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7862493D20480F0500770661 /* RxSwift.framework */; };
+		7862493E20480F1500770661 /* Differentiator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7862494320480F1500770661 /* Differentiator.framework */; };
+		7862493F20480F1500770661 /* Pods_MobiOSLesson1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7862494420480F1500770661 /* Pods_MobiOSLesson1.framework */; };
+		7862494020480F1500770661 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7862494520480F1500770661 /* RxCocoa.framework */; };
+		7862494120480F1500770661 /* RxDataSources.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7862494620480F1500770661 /* RxDataSources.framework */; };
+		7862494220480F1500770661 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7862494720480F1500770661 /* RxSwift.framework */; };
+		80ABBD709DC46EC81352EB94 /* Pods_MobiOSLesson1Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7FEF148FEB8946EBCF1D85F /* Pods_MobiOSLesson1Tests.framework */; };
+		ABAEB117F6D868E4ED25BA08 /* Pods_MobiOSLesson1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ACF399231BAA883C7517EDA /* Pods_MobiOSLesson1.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +46,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		15F7DE6C636ADAE2EB2359F4 /* Pods-MobiOSLesson1Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobiOSLesson1Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MobiOSLesson1Tests/Pods-MobiOSLesson1Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1AC39D15C829D560147B0A79 /* Pods-MobiOSLesson1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobiOSLesson1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MobiOSLesson1/Pods-MobiOSLesson1.debug.xcconfig"; sourceTree = "<group>"; };
+		5D7D731425737376E4242994 /* Pods-MobiOSLesson1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobiOSLesson1.release.xcconfig"; path = "Pods/Target Support Files/Pods-MobiOSLesson1/Pods-MobiOSLesson1.release.xcconfig"; sourceTree = "<group>"; };
+		7797AE3189A83FB204F7F781 /* Pods-MobiOSLesson1Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobiOSLesson1Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MobiOSLesson1Tests/Pods-MobiOSLesson1Tests.release.xcconfig"; sourceTree = "<group>"; };
 		786249002048030600770661 /* MobiOSLesson1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobiOSLesson1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		786249032048030600770661 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		786249082048030600770661 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -47,6 +63,18 @@
 		786249232048030600770661 /* MobiOSLesson1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobiOSLesson1UITests.swift; sourceTree = "<group>"; };
 		786249252048030600770661 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		786249322048034600770661 /* ContactListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListViewController.swift; sourceTree = "<group>"; };
+		7862493920480F0500770661 /* Differentiator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Differentiator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7862493A20480F0500770661 /* Pods_MobiOSLesson1Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_MobiOSLesson1Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7862493B20480F0500770661 /* RxCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7862493C20480F0500770661 /* RxDataSources.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxDataSources.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7862493D20480F0500770661 /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7862494320480F1500770661 /* Differentiator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Differentiator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7862494420480F1500770661 /* Pods_MobiOSLesson1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_MobiOSLesson1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7862494520480F1500770661 /* RxCocoa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxCocoa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7862494620480F1500770661 /* RxDataSources.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxDataSources.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7862494720480F1500770661 /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7ACF399231BAA883C7517EDA /* Pods_MobiOSLesson1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobiOSLesson1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7FEF148FEB8946EBCF1D85F /* Pods_MobiOSLesson1Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobiOSLesson1Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +82,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7862493420480F0500770661 /* Differentiator.framework in Frameworks */,
+				7862493520480F0500770661 /* Pods_MobiOSLesson1Tests.framework in Frameworks */,
+				7862493620480F0500770661 /* RxCocoa.framework in Frameworks */,
+				7862493720480F0500770661 /* RxDataSources.framework in Frameworks */,
+				7862493820480F0500770661 /* RxSwift.framework in Frameworks */,
+				ABAEB117F6D868E4ED25BA08 /* Pods_MobiOSLesson1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +95,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7862493E20480F1500770661 /* Differentiator.framework in Frameworks */,
+				7862493F20480F1500770661 /* Pods_MobiOSLesson1.framework in Frameworks */,
+				7862494020480F1500770661 /* RxCocoa.framework in Frameworks */,
+				7862494120480F1500770661 /* RxDataSources.framework in Frameworks */,
+				7862494220480F1500770661 /* RxSwift.framework in Frameworks */,
+				80ABBD709DC46EC81352EB94 /* Pods_MobiOSLesson1Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +114,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6ACCC4F9E09300B3C1B123D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1AC39D15C829D560147B0A79 /* Pods-MobiOSLesson1.debug.xcconfig */,
+				5D7D731425737376E4242994 /* Pods-MobiOSLesson1.release.xcconfig */,
+				15F7DE6C636ADAE2EB2359F4 /* Pods-MobiOSLesson1Tests.debug.xcconfig */,
+				7797AE3189A83FB204F7F781 /* Pods-MobiOSLesson1Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		786248F72048030600770661 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +132,8 @@
 				786249172048030600770661 /* MobiOSLesson1Tests */,
 				786249222048030600770661 /* MobiOSLesson1UITests */,
 				786249012048030600770661 /* Products */,
+				6ACCC4F9E09300B3C1B123D4 /* Pods */,
+				EF7470B02FE83E331406326F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -133,6 +186,25 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
+		EF7470B02FE83E331406326F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7862494320480F1500770661 /* Differentiator.framework */,
+				7862494420480F1500770661 /* Pods_MobiOSLesson1.framework */,
+				7862494520480F1500770661 /* RxCocoa.framework */,
+				7862494620480F1500770661 /* RxDataSources.framework */,
+				7862494720480F1500770661 /* RxSwift.framework */,
+				7862493920480F0500770661 /* Differentiator.framework */,
+				7862493A20480F0500770661 /* Pods_MobiOSLesson1Tests.framework */,
+				7862493B20480F0500770661 /* RxCocoa.framework */,
+				7862493C20480F0500770661 /* RxDataSources.framework */,
+				7862493D20480F0500770661 /* RxSwift.framework */,
+				7ACF399231BAA883C7517EDA /* Pods_MobiOSLesson1.framework */,
+				B7FEF148FEB8946EBCF1D85F /* Pods_MobiOSLesson1Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -140,9 +212,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 786249282048030600770661 /* Build configuration list for PBXNativeTarget "MobiOSLesson1" */;
 			buildPhases = (
+				5E269EEA62D922F3FCCCAD30 /* [CP] Check Pods Manifest.lock */,
 				786248FC2048030600770661 /* Sources */,
 				786248FD2048030600770661 /* Frameworks */,
 				786248FE2048030600770661 /* Resources */,
+				694B93E50EE3E6460B1AE714 /* [CP] Embed Pods Frameworks */,
+				D0E8A26A9A7916AA82A92004 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -157,9 +232,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7862492B2048030600770661 /* Build configuration list for PBXNativeTarget "MobiOSLesson1Tests" */;
 			buildPhases = (
+				2BA11E657932DB68D59ADB87 /* [CP] Check Pods Manifest.lock */,
 				786249102048030600770661 /* Sources */,
 				786249112048030600770661 /* Frameworks */,
 				786249122048030600770661 /* Resources */,
+				45D4C943275E02DC5C4BBA44 /* [CP] Embed Pods Frameworks */,
+				CCFD25F38D5F22520205A12C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -261,6 +339,123 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2BA11E657932DB68D59ADB87 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MobiOSLesson1Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45D4C943275E02DC5C4BBA44 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MobiOSLesson1Tests/Pods-MobiOSLesson1Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MobiOSLesson1Tests/Pods-MobiOSLesson1Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E269EEA62D922F3FCCCAD30 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MobiOSLesson1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		694B93E50EE3E6460B1AE714 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MobiOSLesson1/Pods-MobiOSLesson1-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MobiOSLesson1/Pods-MobiOSLesson1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCFD25F38D5F22520205A12C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MobiOSLesson1Tests/Pods-MobiOSLesson1Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0E8A26A9A7916AA82A92004 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MobiOSLesson1/Pods-MobiOSLesson1-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		786248FC2048030600770661 /* Sources */ = {
@@ -432,6 +627,7 @@
 		};
 		786249292048030600770661 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AC39D15C829D560147B0A79 /* Pods-MobiOSLesson1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +643,7 @@
 		};
 		7862492A2048030600770661 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D7D731425737376E4242994 /* Pods-MobiOSLesson1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -462,6 +659,7 @@
 		};
 		7862492C2048030600770661 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15F7DE6C636ADAE2EB2359F4 /* Pods-MobiOSLesson1Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -479,6 +677,7 @@
 		};
 		7862492D2048030600770661 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7797AE3189A83FB204F7F781 /* Pods-MobiOSLesson1Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
