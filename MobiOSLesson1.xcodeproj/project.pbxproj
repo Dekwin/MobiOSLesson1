@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		786249042048030600770661 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786249032048030600770661 /* AppDelegate.swift */; };
+		786249062048030600770661 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786249052048030600770661 /* ViewController.swift */; };
+		786249092048030600770661 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 786249072048030600770661 /* Main.storyboard */; };
+		7862490B2048030600770661 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7862490A2048030600770661 /* Assets.xcassets */; };
+		7862490E2048030600770661 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7862490C2048030600770661 /* LaunchScreen.storyboard */; };
+		786249192048030600770661 /* MobiOSLesson1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786249182048030600770661 /* MobiOSLesson1Tests.swift */; };
+		786249242048030600770661 /* MobiOSLesson1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786249232048030600770661 /* MobiOSLesson1UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		786249152048030600770661 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 786248F82048030600770661 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 786248FF2048030600770661;
+			remoteInfo = MobiOSLesson1;
+		};
+		786249202048030600770661 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 786248F82048030600770661 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 786248FF2048030600770661;
+			remoteInfo = MobiOSLesson1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		786249002048030600770661 /* MobiOSLesson1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobiOSLesson1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		786249032048030600770661 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		786249052048030600770661 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		786249082048030600770661 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7862490A2048030600770661 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7862490D2048030600770661 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7862490F2048030600770661 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		786249142048030600770661 /* MobiOSLesson1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobiOSLesson1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		786249182048030600770661 /* MobiOSLesson1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobiOSLesson1Tests.swift; sourceTree = "<group>"; };
+		7862491A2048030600770661 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7862491F2048030600770661 /* MobiOSLesson1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobiOSLesson1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		786249232048030600770661 /* MobiOSLesson1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobiOSLesson1UITests.swift; sourceTree = "<group>"; };
+		786249252048030600770661 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		786248FD2048030600770661 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		786249112048030600770661 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7862491C2048030600770661 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		786248F72048030600770661 = {
+			isa = PBXGroup;
+			children = (
+				786249022048030600770661 /* MobiOSLesson1 */,
+				786249172048030600770661 /* MobiOSLesson1Tests */,
+				786249222048030600770661 /* MobiOSLesson1UITests */,
+				786249012048030600770661 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		786249012048030600770661 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				786249002048030600770661 /* MobiOSLesson1.app */,
+				786249142048030600770661 /* MobiOSLesson1Tests.xctest */,
+				7862491F2048030600770661 /* MobiOSLesson1UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		786249022048030600770661 /* MobiOSLesson1 */ = {
+			isa = PBXGroup;
+			children = (
+				786249032048030600770661 /* AppDelegate.swift */,
+				786249052048030600770661 /* ViewController.swift */,
+				786249072048030600770661 /* Main.storyboard */,
+				7862490A2048030600770661 /* Assets.xcassets */,
+				7862490C2048030600770661 /* LaunchScreen.storyboard */,
+				7862490F2048030600770661 /* Info.plist */,
+			);
+			path = MobiOSLesson1;
+			sourceTree = "<group>";
+		};
+		786249172048030600770661 /* MobiOSLesson1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				786249182048030600770661 /* MobiOSLesson1Tests.swift */,
+				7862491A2048030600770661 /* Info.plist */,
+			);
+			path = MobiOSLesson1Tests;
+			sourceTree = "<group>";
+		};
+		786249222048030600770661 /* MobiOSLesson1UITests */ = {
+			isa = PBXGroup;
+			children = (
+				786249232048030600770661 /* MobiOSLesson1UITests.swift */,
+				786249252048030600770661 /* Info.plist */,
+			);
+			path = MobiOSLesson1UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		786248FF2048030600770661 /* MobiOSLesson1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 786249282048030600770661 /* Build configuration list for PBXNativeTarget "MobiOSLesson1" */;
+			buildPhases = (
+				786248FC2048030600770661 /* Sources */,
+				786248FD2048030600770661 /* Frameworks */,
+				786248FE2048030600770661 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobiOSLesson1;
+			productName = MobiOSLesson1;
+			productReference = 786249002048030600770661 /* MobiOSLesson1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		786249132048030600770661 /* MobiOSLesson1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7862492B2048030600770661 /* Build configuration list for PBXNativeTarget "MobiOSLesson1Tests" */;
+			buildPhases = (
+				786249102048030600770661 /* Sources */,
+				786249112048030600770661 /* Frameworks */,
+				786249122048030600770661 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				786249162048030600770661 /* PBXTargetDependency */,
+			);
+			name = MobiOSLesson1Tests;
+			productName = MobiOSLesson1Tests;
+			productReference = 786249142048030600770661 /* MobiOSLesson1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7862491E2048030600770661 /* MobiOSLesson1UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7862492E2048030600770661 /* Build configuration list for PBXNativeTarget "MobiOSLesson1UITests" */;
+			buildPhases = (
+				7862491B2048030600770661 /* Sources */,
+				7862491C2048030600770661 /* Frameworks */,
+				7862491D2048030600770661 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				786249212048030600770661 /* PBXTargetDependency */,
+			);
+			name = MobiOSLesson1UITests;
+			productName = MobiOSLesson1UITests;
+			productReference = 7862491F2048030600770661 /* MobiOSLesson1UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		786248F82048030600770661 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = MobiMill;
+				TargetAttributes = {
+					786248FF2048030600770661 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					786249132048030600770661 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 786248FF2048030600770661;
+					};
+					7862491E2048030600770661 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 786248FF2048030600770661;
+					};
+				};
+			};
+			buildConfigurationList = 786248FB2048030600770661 /* Build configuration list for PBXProject "MobiOSLesson1" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 786248F72048030600770661;
+			productRefGroup = 786249012048030600770661 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				786248FF2048030600770661 /* MobiOSLesson1 */,
+				786249132048030600770661 /* MobiOSLesson1Tests */,
+				7862491E2048030600770661 /* MobiOSLesson1UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		786248FE2048030600770661 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7862490E2048030600770661 /* LaunchScreen.storyboard in Resources */,
+				7862490B2048030600770661 /* Assets.xcassets in Resources */,
+				786249092048030600770661 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		786249122048030600770661 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7862491D2048030600770661 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		786248FC2048030600770661 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				786249062048030600770661 /* ViewController.swift in Sources */,
+				786249042048030600770661 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		786249102048030600770661 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				786249192048030600770661 /* MobiOSLesson1Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7862491B2048030600770661 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				786249242048030600770661 /* MobiOSLesson1UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		786249162048030600770661 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 786248FF2048030600770661 /* MobiOSLesson1 */;
+			targetProxy = 786249152048030600770661 /* PBXContainerItemProxy */;
+		};
+		786249212048030600770661 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 786248FF2048030600770661 /* MobiOSLesson1 */;
+			targetProxy = 786249202048030600770661 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		786249072048030600770661 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				786249082048030600770661 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7862490C2048030600770661 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7862490D2048030600770661 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		786249262048030600770661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		786249272048030600770661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		786249292048030600770661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S8287H39N6;
+				INFOPLIST_FILE = MobiOSLesson1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mobimill.MobiOSLesson1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7862492A2048030600770661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S8287H39N6;
+				INFOPLIST_FILE = MobiOSLesson1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mobimill.MobiOSLesson1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7862492C2048030600770661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S8287H39N6;
+				INFOPLIST_FILE = MobiOSLesson1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mobimill.MobiOSLesson1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobiOSLesson1.app/MobiOSLesson1";
+			};
+			name = Debug;
+		};
+		7862492D2048030600770661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S8287H39N6;
+				INFOPLIST_FILE = MobiOSLesson1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mobimill.MobiOSLesson1Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MobiOSLesson1.app/MobiOSLesson1";
+			};
+			name = Release;
+		};
+		7862492F2048030600770661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S8287H39N6;
+				INFOPLIST_FILE = MobiOSLesson1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mobimill.MobiOSLesson1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MobiOSLesson1;
+			};
+			name = Debug;
+		};
+		786249302048030600770661 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S8287H39N6;
+				INFOPLIST_FILE = MobiOSLesson1UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Mobimill.MobiOSLesson1UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MobiOSLesson1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		786248FB2048030600770661 /* Build configuration list for PBXProject "MobiOSLesson1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				786249262048030600770661 /* Debug */,
+				786249272048030600770661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		786249282048030600770661 /* Build configuration list for PBXNativeTarget "MobiOSLesson1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				786249292048030600770661 /* Debug */,
+				7862492A2048030600770661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7862492B2048030600770661 /* Build configuration list for PBXNativeTarget "MobiOSLesson1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7862492C2048030600770661 /* Debug */,
+				7862492D2048030600770661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7862492E2048030600770661 /* Build configuration list for PBXNativeTarget "MobiOSLesson1UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7862492F2048030600770661 /* Debug */,
+				786249302048030600770661 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 786248F82048030600770661 /* Project object */;
+}
