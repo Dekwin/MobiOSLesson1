@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		786249042048030600770661 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786249032048030600770661 /* AppDelegate.swift */; };
-		786249062048030600770661 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786249052048030600770661 /* ViewController.swift */; };
 		786249092048030600770661 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 786249072048030600770661 /* Main.storyboard */; };
 		7862490B2048030600770661 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7862490A2048030600770661 /* Assets.xcassets */; };
 		7862490E2048030600770661 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7862490C2048030600770661 /* LaunchScreen.storyboard */; };
 		786249192048030600770661 /* MobiOSLesson1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786249182048030600770661 /* MobiOSLesson1Tests.swift */; };
 		786249242048030600770661 /* MobiOSLesson1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786249232048030600770661 /* MobiOSLesson1UITests.swift */; };
+		786249332048034600770661 /* ContactListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 786249322048034600770661 /* ContactListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		786249002048030600770661 /* MobiOSLesson1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobiOSLesson1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		786249032048030600770661 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		786249052048030600770661 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		786249082048030600770661 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7862490A2048030600770661 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7862490D2048030600770661 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		7862491F2048030600770661 /* MobiOSLesson1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobiOSLesson1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		786249232048030600770661 /* MobiOSLesson1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobiOSLesson1UITests.swift; sourceTree = "<group>"; };
 		786249252048030600770661 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		786249322048034600770661 /* ContactListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +97,8 @@
 		786249022048030600770661 /* MobiOSLesson1 */ = {
 			isa = PBXGroup;
 			children = (
+				786249312048031600770661 /* Controllers */,
 				786249032048030600770661 /* AppDelegate.swift */,
-				786249052048030600770661 /* ViewController.swift */,
 				786249072048030600770661 /* Main.storyboard */,
 				7862490A2048030600770661 /* Assets.xcassets */,
 				7862490C2048030600770661 /* LaunchScreen.storyboard */,
@@ -123,6 +123,14 @@
 				786249252048030600770661 /* Info.plist */,
 			);
 			path = MobiOSLesson1UITests;
+			sourceTree = "<group>";
+		};
+		786249312048031600770661 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				786249322048034600770661 /* ContactListViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +267,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				786249062048030600770661 /* ViewController.swift in Sources */,
 				786249042048030600770661 /* AppDelegate.swift in Sources */,
+				786249332048034600770661 /* ContactListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
